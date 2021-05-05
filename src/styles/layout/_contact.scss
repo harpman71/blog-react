@@ -1,0 +1,33 @@
+/* ----------------------------- *\
+|           $CONTACT              |
+\* ----------------------------- */
+
+.contact-main-container {
+	width: 100%;
+	min-height: 250px;
+	background-color: $contact-main-container-background-color;
+	text-align: center;
+	padding-bottom: 50px;
+	div {
+		display: inline-block;
+		width: 49.5%;
+		height: 100%;
+		a {
+			border-bottom: 1px solid $links-color;
+			padding-bottom: 5px;
+		}
+	}
+	.contact-left {
+		text-align: initial;
+		margin-top: 85px;
+	}
+	.contact-right {
+		text-align: initial;
+		margin-top: 85px;
+	}
+	img {
+		width: 100px;
+		padding-right: 3px;
+	}
+}
+

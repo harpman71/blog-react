@@ -1,0 +1,16 @@
+/* ----------------------------- *\
+|             $FOOTER             |
+\* ----------------------------- */
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: $footer-background-color;
+    border-top: 35px solid $footer-border-top;
+    text-align: center;
+}
+
+footer p{
+    color: $footer-text-color;
+    margin-top: 30px;
+}

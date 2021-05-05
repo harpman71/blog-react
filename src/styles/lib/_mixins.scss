@@ -1,0 +1,10 @@
+/* ----------------------------- *\
+|             $MIXINS             |
+\* ----------------------------- */
+
+
+@mixin response-to($width) {
+    @media (max-width: $width) {
+        @content;
+        }
+    } 

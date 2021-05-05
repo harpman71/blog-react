@@ -1,0 +1,15 @@
+/* ----------------------------- *\
+|          $STRUCTURAL            |
+\* ----------------------------- */
+
+body {
+    font-family: $font-family;
+    margin: 0px;
+    padding: 0px;    
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: $links-color;
+}

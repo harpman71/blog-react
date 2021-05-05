@@ -1,0 +1,34 @@
+/* ----------------------------- *\
+|         $MEDIA-QUERIES          |
+\* ----------------------------- */
+
+@include response-to($breakpoints-blogs-profile){
+    .blogs-main-new{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+    .blogs-news-img-container{
+        grid-row: 2;
+    }
+    .blogs-news-info-container{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .blogs-posts-container .post-container{
+        max-width: 45%;
+    }
+    .projects-main-container{
+        /* grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr; */
+        grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    }
+    .profile-main-container .profile-container{
+        display: block;
+    }
+}
+
+@include response-to($breakpoints-blogs-posts-container){
+    .blogs-posts-container .post-container{
+        max-width: 95%;
+    }
+}

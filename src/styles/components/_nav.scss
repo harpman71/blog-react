@@ -1,0 +1,30 @@
+/* ----------------------------- *\
+|             $NAV             |
+\* ----------------------------- */
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img{
+    width: 160px;
+    margin-top: 15px;
+}
+
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a{
+    color: $links-color;
+    border-bottom: 1px solid $links-color;
+}

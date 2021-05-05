@@ -1,0 +1,27 @@
+// Librerias, settings y variables
+@import 'lib/variables';
+@import 'lib/mixins';
+
+//tipografía
+@import 'base/typography';
+@import 'base/buttons';
+
+//elementos estructurales
+@import 'base/structural';
+
+//components
+@import 'components/grid';
+@import 'components/header';
+@import 'components/nav';
+@import 'components/footer';
+
+//layout
+@import 'layout/home';
+@import 'layout/blogs';
+@import 'layout/blog';
+@import 'layout/profile';
+@import 'layout/contact';
+
+//media queries
+@import 'base/media-queries';
+
