@@ -9,7 +9,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        publicPath: '/'        
+        publicPath: '/',
+        assetModuleFilename: 'assets/img/[name][ext][query]'        
     },
     resolve: {
         extensions: ['.js', '.jsx'],
@@ -53,7 +54,7 @@ module.exports = {
             favicon: './public/favicon.ico'            
             }),
         new MiniCssExtractPlugin({
-            filename: 'styles/[name].css',
+            filename: './styles/[name].css',
           }),
         new CopyPlugin({
             patterns : [

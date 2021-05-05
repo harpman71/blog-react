@@ -57,7 +57,7 @@ module.exports = {
             favicon: './public/favicon.ico'            
             }),
         new MiniCssExtractPlugin({
-            filename: 'styles/[name].css',
+            filename: './styles/[name].css',
             }),
         new CopyPlugin({
             patterns : [
