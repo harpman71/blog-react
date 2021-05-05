@@ -1,6 +1,6 @@
 # Blog React v 1.0
 
-Blog developed from the project of the CSS layout course in Platzi. In the same implement the Sass preprocessor seen in another course of the same platform and I use React for its implementation.
+Blog developed from the project of the CSS layout course in Platzi. In it I implement Sass and React, technologies applied in other courses of the same platform.
 
 ## Available Scripts
 
