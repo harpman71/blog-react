@@ -21,7 +21,7 @@ const Header = () => (
                 </Link>
             </section>
             <section className="profile-link">
-                <Link to="profile">
+                <Link to="/profile">
                     Sobre Mi
                 </Link>
             </section>
