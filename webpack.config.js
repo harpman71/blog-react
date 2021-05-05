@@ -77,7 +77,7 @@ module.exports = {
         minimize: true,
         minimizer: [
             new CssMinimizerWebpackPlugin({
-                minify: CssMinimizerWebpackPlugin.cssoMinify,
+                minify: CssMinimizerWebpackPlugin.cleanCssMinify,
             }),
             new TerserWebpackPlugin()
         ]
