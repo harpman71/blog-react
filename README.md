@@ -24,4 +24,4 @@ Your app is ready to be deployed!
 
 ### Project online
 
-<!-- See the project running here: <a href="https://vigilant-agnesi-489260.netlify.app/" target="_blank">https://vigilant-agnesi-489260.netlify.app/</a> -->
+See the project running here: <a href="https://jovial-bose-01ea8e.netlify.app" target="_blank">https://jovial-bose-01ea8e.netlify.app</a>
